@@ -2,7 +2,7 @@
 
 ## TL;DR:
 
-### An app with a form for Height and Weight that can recalculate form values on Unit change With the ability to save and pull from storage (state but in snack async storage)
+### An app with a form for Height and Weight that can recalculate form values on Unit change With the ability to save and pull from storage 
 
 We estimate that this challenge should take 2-4 hours to complete. We expect you to review the requirements and reply in an email with clarifying questions to remove ambiguity if needed. If you feel that the challenge is going to take much longer than 2-4 hours, please let us know!
 
