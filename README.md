@@ -15,16 +15,16 @@ Demo: https://expo.dev/@jongan69/passioCodeChallenge?serviceType=classic&distrib
 
 ## Getting started:
 
-To run the app you need react native Expo installed 
+To run the app you need react native Expo installed <br/>
 `yarn add expo`
 
-To install all dependencies
+To install all dependencies <br/>
 `yarn install`
 
-Once all neccessary dependencies are installed (Expo, react-native, etc.)
+Once all neccessary dependencies are installed (Expo, react-native, etc.) <br/>
 `expo start` or  `yarn start`
 
-Ejecting to react native
+Ejecting to react native <br/>
 `expo eject`
 
 We estimate that this challenge should take 2-4 hours to complete. We expect you to review the requirements and reply in an email with clarifying questions to remove ambiguity if needed. If you feel that the challenge is going to take much longer than 2-4 hours, please let us know!
