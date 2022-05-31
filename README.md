@@ -64,14 +64,14 @@ How to deliver: Please upload your app to a new GitHub repo and share with us.
 Please document everything required for us to run / test the app in the README.
 
 
-PROBLEMS:<br/>
+## PROBLEMS:<br/>
 - Decciding how to structure form
 - Fixing calculation on proper state during correct render
 - Implementing form validation
 - Using Async Storage or Redux toolkit (same outcome different tooling)
 - Need to build out jest tests for form
 
-LOGS:<br/>
+## LOGS:<br/>
 - Was given project on 5/27/2022
 - Created basic form snack: https://snack.expo.dev/@jongan69/passio-rn-code-challenge
 - Created basic switch snack: https://snack.expo.dev/@jongan69/privileged-chocolate
