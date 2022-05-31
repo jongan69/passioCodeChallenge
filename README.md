@@ -1,9 +1,9 @@
 # React Native Code Challenge
 
-<p align="center">
-  <img src="/assets/images/IMG_1823.PNG" width="350" title="Home Screen">
-  <img src="/assets/images/IMG_1826.PNG" width="350" alt="Modal Screen">
-   <img src="/assets/images/IMG_1827.PNG" width="350" alt="Settings Screen">
+<p align="left">
+  <img src="/assets/images/IMG_1823.PNG" width="200" title="Home Screen">
+  <img src="/assets/images/IMG_1826.PNG" width="200" alt="Modal Screen">
+   <img src="/assets/images/IMG_1827.PNG" width="200" alt="Settings Screen">
 </p>
 
 
