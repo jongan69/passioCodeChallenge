@@ -1,6 +1,9 @@
 # React Native Code Challenge
 
-![Home](https://github.com/jongan69/passioCodeChallenge/blob/main/assets/images/IMG_1823.PNG)
+<p align="center">
+  <img src="/assets/images/IMG_1823.PNG" width="350" title="hover text">
+  <img src="/assets/images/IMG_1823.PNG" width="350" alt="accessibility text">
+</p>
 ![Settings](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 ![Modal](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 
