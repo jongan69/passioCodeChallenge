@@ -1,4 +1,4 @@
-# React Native Code Challenge
+# Passio React Native Code Challenge
 
 <p align="left">
   <img src="/assets/images/IMG_1825.PNG" width="200" title="Home Screen">
