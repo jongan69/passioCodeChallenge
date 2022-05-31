@@ -1,11 +1,10 @@
 # React Native Code Challenge
 
 <p align="center">
-  <img src="/assets/images/IMG_1823.PNG" width="350" title="hover text">
-  <img src="/assets/images/IMG_1823.PNG" width="350" alt="accessibility text">
+  <img src="/assets/images/IMG_1823.PNG" width="350" title="Home Screen">
+  <img src="/assets/images/IMG_1826.PNG" width="350" alt="Modal Screen">
+   <img src="/assets/images/IMG_1827.PNG" width="350" alt="Settings Screen">
 </p>
-![Settings](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
-![Modal](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 
 
 ## TL;DR:
