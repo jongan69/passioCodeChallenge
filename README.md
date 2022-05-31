@@ -1,5 +1,7 @@
 # Passio React Native Code Challenge
 
+Demo: https://expo.dev/@jongan69/passioCodeChallenge?serviceType=classic&distribution=expo-go
+
 <p align="left">
   <img src="/assets/images/IMG_1825.PNG" width="200" title="Home Screen">
   <img src="/assets/images/IMG_1826.PNG" width="200" alt="Modal Screen">
