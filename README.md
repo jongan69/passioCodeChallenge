@@ -13,6 +13,20 @@ Demo: https://expo.dev/@jongan69/passioCodeChallenge?serviceType=classic&distrib
 
 ### An app with a form for Height and Weight that can recalculate form values on Unit change With the ability to save and pull from storage 
 
+## Getting started:
+
+To run the app you need react native Expo installed 
+`yarn add expo`
+
+To install all dependencies
+`yarn install`
+
+Once all neccessary dependencies are installed (Expo, react-native, etc.)
+`expo start` or  `yarn start`
+
+Ejecting to react native
+`expo eject`
+
 We estimate that this challenge should take 2-4 hours to complete. We expect you to review the requirements and reply in an email with clarifying questions to remove ambiguity if needed. If you feel that the challenge is going to take much longer than 2-4 hours, please let us know!
 
 Create a React Native form screen with the following fields:
@@ -48,6 +62,6 @@ How to deliver: Please upload your app to a new GitHub repo and share with us.
 Please document everything required for us to run / test the app in the README.
 
 
-PROBLEMS
-LOGS
+PROBLEMS:
+LOGS:
 
