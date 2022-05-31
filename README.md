@@ -1,6 +1,6 @@
 # React Native Code Challenge
 
-![Home]([https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true](https://github.com/jongan69/passioCodeChallenge/blob/main/assets/images/IMG_1823.PNG))
+![Home](https://github.com/jongan69/passioCodeChallenge/blob/main/assets/images/IMG_1823.PNG)
 ![Settings](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 ![Modal](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 
