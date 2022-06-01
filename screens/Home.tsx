@@ -8,25 +8,12 @@ import {
   Button,
 } from 'react-native';
 import { Appbar, TextInput } from 'react-native-paper';
-import DropDownPicker from 'react-native-dropdown-picker';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import Constants from 'expo-constants';
 import { useForm, Controller } from 'react-hook-form';
 import { booleanLiteral } from '@babel/types';
-
-import EditScreenInfo from '../components/EditScreenInfo';
 import { Text, View } from '../components/Themed';
 import { RootTabScreenProps } from '../types';
-
-// export default function TabOneScreen({ navigation }: RootTabScreenProps<'TabOne'>) {
-//   return (
-//     <View style={styles.container}>
-//       <Text style={styles.title}>Tab One</Text>
-//       <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
-//       <EditScreenInfo path="/screens/TabOneScreen.tsx" />
-//     </View>
-//   );
-// }
 
 
 // Getting Dimensions, useful for styling
@@ -42,7 +29,7 @@ function reducer(state, action) {
   }
 }
 
-export default function TabOneScreen({ navigation }: RootTabScreenProps<'TabOne'>) {
+export default function Home({ navigation }: RootTabScreenProps<'TabOne'>) {
   const [state, dispatch] = useReducer(reducer, { height: '', weight: '' });
   const [metricHeight, setMetricHeight] = useState(null);
   const [metricWeight, setMetricWeight] = useState(null);
@@ -67,7 +54,7 @@ export default function TabOneScreen({ navigation }: RootTabScreenProps<'TabOne'
       }
     });
 
-    // getting an item from stroage is always a string
+    // getting an item from storage is always a string
     AsyncStorage.getItem('weight').then((value: string) => {
       {
         if (typeof value === 'string') {
@@ -172,7 +159,6 @@ export default function TabOneScreen({ navigation }: RootTabScreenProps<'TabOne'
       <TouchableWithoutFeedback onPress={Keyboard.dismiss} accessible={false}>
         <Appbar.Header style={styles.header}>
           <Appbar.Content title="Passio RN Code Challenge" />
-          <Appbar.Action icon="dots-vertical" />
         </Appbar.Header>
       </TouchableWithoutFeedback>
 
