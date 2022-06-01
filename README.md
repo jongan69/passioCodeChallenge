@@ -1,8 +1,33 @@
-# React Native Code Challenge
+# Passio React Native Code Challenge
+
+Demo: https://expo.dev/@jongan69/passioCodeChallenge?serviceType=classic&distribution=expo-go
+
+<p align="left">
+  <img src="/assets/images/IMG_1825.PNG" width="200" title="Home Screen">
+  <img src="/assets/images/IMG_1826.PNG" width="200" alt="Modal Screen">
+   <img src="/assets/images/IMG_1827.PNG" width="200" alt="Settings Screen">
+</p>
+
 
 ## TL;DR:
 
 ### An app with a form for Height and Weight that can recalculate form values on Unit change With the ability to save and pull from storage 
+
+## Getting started:
+
+To run the app you need react native Expo installed <br/>
+`yarn add expo`
+
+To install all dependencies <br/>
+`yarn install`
+
+Once all neccessary dependencies are installed (Expo, react-native, etc.) <br/>
+`expo start` or  `yarn start`
+
+Ejecting to react native <br/>
+`expo eject`
+
+## Project Spec
 
 We estimate that this challenge should take 2-4 hours to complete. We expect you to review the requirements and reply in an email with clarifying questions to remove ambiguity if needed. If you feel that the challenge is going to take much longer than 2-4 hours, please let us know!
 
@@ -39,6 +64,18 @@ How to deliver: Please upload your app to a new GitHub repo and share with us.
 Please document everything required for us to run / test the app in the README.
 
 
-PROBLEMS
-LOGS
+## PROBLEMS:<br/>
+- Decciding how to structure form
+- Fixing calculation on proper state during correct render
+- Implementing form validation
+- Using Async Storage or Redux toolkit (same outcome different tooling)
+- Need to build out jest tests for form
 
+## LOGS:<br/>
+- Was given project on 5/27/2022
+- Created basic form snack: https://snack.expo.dev/@jongan69/passio-rn-code-challenge
+- Created basic switch snack: https://snack.expo.dev/@jongan69/privileged-chocolate
+- Created useReducer snack:  https://snack.expo.dev/@jongan69/usereducer-example
+- Built this repo for project requirements
+- Built project using `Expo init` and added correct screen names and function from snack demos
+- Email back Dave for Feedback
