@@ -20,7 +20,7 @@ import { RootTabScreenProps } from '../types';
 const windowWidth = Dimensions.get('window').width;
 const windowHeight = Dimensions.get('window').height;
 
-function reducer(state, action) {
+function reducer(state: any, action: { type: string; value; }) {
   switch (action.type) {
     case 'height':
       return { ...state, height: action.value };
@@ -95,7 +95,7 @@ export default function Home({ navigation }: RootTabScreenProps<'TabOne'>) {
 
       if (mtcHeight) {
         setMetricHeight(mtcHeight);
-        return state.height;
+        dispatch({ type: 'height', value: mtcHeight });
       }
     }
 
@@ -106,8 +106,7 @@ export default function Home({ navigation }: RootTabScreenProps<'TabOne'>) {
       console.log('Imperial To Metric Weight ', weight, 'lbs', mtcWeight, 'kg');
       if (mtcWeight) {
         setMetricWeight(mtcWeight);
-        return state.weight;
-      }
+        dispatch({ type: 'weight', value: mtcWeight });      }
     }
   };
 
